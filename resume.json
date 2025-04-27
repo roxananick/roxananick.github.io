@@ -1,0 +1,308 @@
+{
+    "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+    "basics": {
+        "name": "Roxana Nick",
+        "label": "Data Scientist",
+        "image": "./img/avatar.jpg",
+        "email": "rxnik53@gmail.com",
+        "url": "https://Roxananick.github.io",
+        "summary": "Results-driven data scientist with a Master’s in Applied Modeling and Quantitative Methods and expertise in time series analysis, machine learning, and statistical modeling. Proficient in Python, R, SQL, and data visualization. Experienced in turning complex data into strategic insights to support business decision-making. Skilled at delivering scalable, data-driven solutions with a strong track record of research, analytics, and project execution.",
+        "location": {
+            "city": "Toronto",
+            "countryCode": "CA",
+            "region": "Ontario"
+        },
+        "profiles": [
+            {
+                "network": "Twitter",
+                "username": "Roxananick_",
+                "url": "https://x.com/roxananick_"
+            },
+            {
+                "network": "Github",
+                "username": "RoxanaNick",
+                "url": "https://github.com/RoxanaNick"
+            },
+            {
+                "network": "Linkedin",
+                "username": "Roxana Nick",
+                "url": "https://www.linkedin.com/in/roxananick"
+            }
+        ]
+    },
+    "work": [
+        {
+            "name": "medad-ai",
+            "location": "Tehran, Tehran",
+            "description": "A great startup around AI, trying to build highly scalable search as service and recommendation as service",
+            "position": "Software Engineer",
+            "url": "http://medad-ai.ir",
+            "startDate": "2021-04-01",
+            "endDate": "2022-08-01",
+            "summary": "I was responsible for building distributed and scalable services using cloud architecture patterns and also interacting with AI team to build services,",
+            "highlights": [
+                " Bootstrapped a k8s cluster using Kubespray",
+                " Distributed k8s between two datacenters",
+                " Designed VPC over two datacenters",
+                " Designed and implemented a real-time audio and video processing pipeline using micro-service Architecture",
+                " Designed and implemented search and recommendation as a service on the result of the pipeline",
+                " Designed a real-time billing service using timescale-db",
+                " Designed a user tracker service in Rust language",
+                " Used redis and redis-stream as message queues between our services",
+                " Designed rqueue (reliable queue) with redis",
+                " Set up monitoring service using prometheus-operator and grafana",
+                " Setup log management using fluentd, fluentbit, Elasticsearch and kibana",
+                " Deployed and managed Traefik as API gateway",
+                " Deployed minio as S3 Storage"
+            ]
+        },
+        {
+            "name": "Trent University",
+            "location": "Peterborough, Ontario,Canada",
+            "description": "A public research‐intensive university offering programs across arts, sciences, and professional disciplines.",
+            "position": "Statistics Research Assistant",
+            "startDate": "2022-09",
+            "endDate": "2024-10",
+            "summary": "Responsible for designing statistical experiments and developing time series interpolation models to recover missing data and support statistical reporting.",
+            "highlights": [
+                "Designed statistical experiments and time series models to identify anomalies and reconstruct missing data.",
+                "Developed and evaluated multiple interpolation models (KAF, EWMA, HWI) to recover incomplete data under various SNRs.",
+                "Supported statistical reporting with reproducible documentation, simulations, and visual summaries."
+            ]
+        },
+        {
+            "name": "Trent University",
+            "location": "Peterborough, Ontario, Canada",
+            "description": "A public research‐intensive university offering programs across arts, sciences, and professional disciplines.",
+            "position": "R Shiny App Developer – Awards Analytics Project",
+            "startDate": "2023-05",
+            "endDate": "2023-08",
+            "summary": "Responsible for automating eligibility analysis for scholarship applicants using statistical logic in an R Shiny dashboard and delivering tabulated summaries and visualizations to support audit-compliant decision-making.",
+            "highlights": [
+                "Automated eligibility analysis for scholarship applicants using statistical logic and an R Shiny dashboard.",
+                "Created tabulated summary outputs and graphical visualizations in alignment with reporting best practices.",
+                "Reduced manual review time by 60% and supported transparent decision-making through audit-compliant documentation.",
+                "Collaborated with cross-departmental stakeholders to ensure alignment with academic governance standards."
+            ]
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "Sabzkaran NGO",
+            "position": "Event Data Analyst and Communications Support",
+            "startDate": "2013",
+            "endDate": "2020",
+            "summary": "Created newsletters and reports communicating data-driven insights to a broad audience. Managed social media accounts, analyzing Instagram engagement metrics to optimize posting schedules and content strategies. Collected, validated, and reported event participation and audience interaction data. Designed dashboards and visual content to present findings and improve outreach effectiveness. Used engagement analytics to inform communication strategies and increase event visibility."
+        },
+        {
+            "organization": "Scientific Association of Statistics and Data Science, University of Guilan",
+            "position": "Project Manager",
+            "startDate": "2019-09",
+            "endDate": "2022-05",
+            "summary": "Planned and helped run data science and statistics projects for students. Organized workshops, seminars, and training sessions to teach technical skills. Worked with students, professors, and industry guests to support learning and research. Led small student teams and made sure projects were completed on time."
+        },
+        {
+            "organization": "Guilan University ",
+            "position": "Work shop cordinator, Introduction to R",
+            "startDate": "2021-09",
+            "endDate": "2022-05",
+            "summary": "Organized and coordinated an Introduction to R programming workshop for undergraduate students. Assisted in preparing materials, managing workshop logistics, and supporting participants during hands-on sessions. Helped students understand basic R concepts, data handling, and simple statistical analysis through guided exercises."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Trent University",
+            "url": "https://https://www.trentu.ca/",
+            "score": "4.0/4.0",
+            "area": "Applied Modelling & Quantitative Methods",
+            "studyType": "Master of Science",
+            "startDate": "2022-09",
+            "endDate": "2024-10",
+            "courses": [
+                "Deep Learning",
+                "Computational Statistics",
+                "Advanced Statistics",
+                "Sampling & Design of Experiments"
+            ]
+        },
+        {
+            "institution": "University of Guilan",
+            "url": "https://english.guilan.ac.ir/",
+            "area": "Statistics",
+            "studyType": "Bachelor of Science",
+            "startDate": "2018-09",
+            "endDate": "20022-05",
+            "courses": [
+                "Statistical Quality Control",
+                "Discrete Multivariate Methods",
+                "Continuous Multivariate Methods",
+                "Regression I-II",
+                "Linear Algebra",
+                "Data Mining",
+                "Statistical computations",
+                "Design of Expermiments I,II",
+                "Time Series Analysis",
+                "Samplimg Methods I,II",
+                "Probability and Fuzzy Statistics",
+                "Fundamentals of Combinatories",
+                "Mathematical Statistics I,II",
+                "Introduction to Information Theory",
+                "Random Processes",
+                "Nonparametric Methods",
+                "Numerical Methods and Simulation",
+                "Mathematical Analysis",
+                "Differential Equations",
+                "Issues in Applied Statistics",
+                "Statistical Methods",
+                "Probability I,II",
+                "Fundamentals of Mathematics",
+                "Fundamentals of Computers and Programming",
+                "Calculus I,II"
+            ]
+        },
+        {
+            "institution": "Professor Reza High School",
+            "area": "Math & Physics",
+            "studyType": "Diploma",
+            "startDate": "2013-09",
+            "endDate": "2018-06",
+            "score": "19.7/20.00"
+        }
+    ],
+    "awards": [
+        {
+            "title": "Research Fellowship at Trent University",
+            "date": "2022-2024",
+            "summary": "$30,449"
+        },
+        {
+            "title": "Graduate Teaching Assistantship at Trent University",
+            "date": "2022-2024",
+            "summary": "$12,000"
+        },
+        {
+            "title": "Dean’s International Award ",
+            "date": "2024",
+            "summary": "$1,182 "
+        },
+        {
+            "title": "Graduate International Bursary ",
+            "date": "2022-2024",
+            "summary": "$1,400 "
+        },
+        {
+            "title": "National Entrance exam Scholarship",
+            "date": "2018-2022",
+            "summary": "Full-ride B.Sc. in Statistics"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Programming & Tools",
+            "keywords": [
+                "Python (Pandas, NumPy, Matplotlib, Seaborn, SciPy, Streamlit)",
+                "R",
+                "SQL",
+                "Git",
+                "GitHub",
+                "MLflow",
+                "LaTeX",
+                "GitHub Copilot"
+            ]
+        },
+        {
+            "name": "Statistical & Machine Learning Methods",
+            "keywords": [
+                "Statistical Modeling",
+                "Hypothesis Testing",
+                "Linear Regression",
+                "Non-linear Analysis",
+                "Regression Analysis",
+                "Time Series Analysis"
+            ]
+        },
+        {
+            "name": "Data Handling & Visualization",
+            "keywords": [
+                "Data Cleaning",
+                "Data Manipulation",
+                "Data Validation",
+                "Data Analysis",
+                "Data Visualization",
+                "Dashboards (Plotly, Dash, Tableau)"
+            ]
+        },
+        {
+            "name": "Soft Skills",
+            "keywords": [
+                "Adaptability",
+                "Problem-Solving",
+                "Self-Motivation & Discipline",
+                "Strong Analytical Skills",
+                "Interpersonal Skills"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "JOS",
+            "description": "Implemented a 64-bit UNIX like operating system from scratch",
+            "keywords": [
+                "C",
+                "Operating Systems"
+            ],
+            "startDate": "2021-08-01",
+            "url": "https://github.com/NothingRealm/jos",
+            "type": "application"
+        },
+        {
+            "name": "Gandalf",
+            "description": "Gandolf is an implemention of Raft algorithm which can be used to bring consensus over any database.",
+            "highlights": [
+                "Cosnsisted of a redis like key-value store and a consensus module",
+                "Used Event-Driven Architecture for desinging system",
+                "Can bring consensu to any database"
+            ],
+            "keywords": [
+                "Rust",
+                "Raft",
+                "Consensus",
+                "Database"
+            ],
+            "startDate": "2021-06-01",
+            "url": "https://github.com/NothingRealm/gandalf",
+            "type": "application"
+        },
+        {
+            "name": "Oira",
+            "description": "Oira is a flask like dispatcher with the mindset to keep everything simple and avoiding third parties as much as we can.",
+            "highlights": [
+                "A simple dispatcher writen in python from scratch",
+                "Built to develope microservices with"
+            ],
+            "keywords": [
+                "Python",
+                "Dispatcher",
+                "WSGI"
+            ],
+            "startDate": "2020-09-01",
+            "url": "https://github.com/NothingRealm/oira",
+            "type": "application"
+        },
+        {
+            "name": "Phobia",
+            "description": "Phobia is a asynchronous multi-threaded scenario-based load-generator implemented in Rust for stress testing services.",
+            "keywords": [
+                "Rust",
+                "Load-generator"
+            ],
+            "startDate": "2022-06-01",
+            "url": "https://github.com/NothingRealm/phobia"
+        }
+    ],
+    "meta": {
+        "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+        "version": "v1.0.0",
+        "lastModified": "2021-11-02T21:46:00"
+    }
+}
