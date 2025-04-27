@@ -32,31 +32,6 @@
     },
     "work": [
         {
-            "name": "medad-ai",
-            "location": "Tehran, Tehran",
-            "description": "A great startup around AI, trying to build highly scalable search as service and recommendation as service",
-            "position": "Software Engineer",
-            "url": "http://medad-ai.ir",
-            "startDate": "2021-04-01",
-            "endDate": "2022-08-01",
-            "summary": "I was responsible for building distributed and scalable services using cloud architecture patterns and also interacting with AI team to build services,",
-            "highlights": [
-                " Bootstrapped a k8s cluster using Kubespray",
-                " Distributed k8s between two datacenters",
-                " Designed VPC over two datacenters",
-                " Designed and implemented a real-time audio and video processing pipeline using micro-service Architecture",
-                " Designed and implemented search and recommendation as a service on the result of the pipeline",
-                " Designed a real-time billing service using timescale-db",
-                " Designed a user tracker service in Rust language",
-                " Used redis and redis-stream as message queues between our services",
-                " Designed rqueue (reliable queue) with redis",
-                " Set up monitoring service using prometheus-operator and grafana",
-                " Setup log management using fluentd, fluentbit, Elasticsearch and kibana",
-                " Deployed and managed Traefik as API gateway",
-                " Deployed minio as S3 Storage"
-            ]
-        },
-        {
             "name": "Trent University",
             "location": "Peterborough, Ontario,Canada",
             "description": "A public research‐intensive university offering programs across arts, sciences, and professional disciplines.",
